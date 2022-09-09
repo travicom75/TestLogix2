@@ -1,0 +1,42 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  Children:
+  - Name: CV3
+    Type: EthernetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CV3"
+  - Name: myTags
+    Type: EthernetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [10]
+    Value: [0,0,0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "myTags"
+  - Name: FT_OPTIX
+    Id: g=cec4c9c2fbe10a22b97d460da960d02b
+    Type: EthernetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FT_OPTIX"
+    - Name: Encoding
+      Type: BaseDataVariableType
+      DataType: Encoding
+      Value: 0

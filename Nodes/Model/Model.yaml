@@ -1,0 +1,88 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: barObj
+  Type: BaseObjectType
+  Children:
+  - Name: ActVal
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DataBind
+      DataType: NodePath
+      Value: "../../../CommDrivers/EthernetIPDriver1/EthernetIPStation1/Tags/Controller Tags/FT_OPTIX[0]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DataBindModeType
+        Value: 2
+  - Name: MinVal
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: -1
+    Children:
+    - Name: DynamicLink
+      Type: DataBind
+      DataType: NodePath
+      Value: "../../../CommDrivers/EthernetIPDriver1/EthernetIPStation1/Tags/Controller Tags/FT_OPTIX[1]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DataBindModeType
+        Value: 2
+  - Name: MaxVal
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1000
+    Children:
+    - Name: DynamicLink
+      Type: DataBind
+      DataType: NodePath
+      Value: "../../../CommDrivers/EthernetIPDriver1/EthernetIPStation1/Tags/Controller Tags/FT_OPTIX[2]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DataBindModeType
+        Value: 2
+  - Name: ColorAnimation
+    Id: g=1c9472303d50f0f87701d7389603a3e3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ColorsForAnimation
+    Id: g=99364dfa961b6b80238f2f48e897d089
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: FillValue
+    Id: g=4854b15f54593c7b51de0bac6aa1ab11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DataBind
+      DataType: NodePath
+      Value: "../../../CommDrivers/EthernetIPDriver1/EthernetIPStation1/Tags/Controller Tags/FT_OPTIX[3]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DataBindModeType
+        Value: 2
+  - Name: FillValue_Max
+    Id: g=9e79ed4d970ff512e385131ea16cf31f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DataBind
+      DataType: NodePath
+      Value: "../../../CommDrivers/EthernetIPDriver1/EthernetIPStation1/Tags/Controller Tags/FT_OPTIX[4]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DataBindModeType
+        Value: 2

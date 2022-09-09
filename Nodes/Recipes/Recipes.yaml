@@ -1,0 +1,41 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=13;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=60
+    Direction: Forward

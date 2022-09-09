@@ -1,0 +1,4 @@
+Name: widget
+Type: FolderType
+Children:
+- File: UserEditor1/UserEditor1.yaml
